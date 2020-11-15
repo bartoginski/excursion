@@ -1,1 +1,53 @@
-ECHO is on.
+* {
+    margin: 0;
+
+}
+
+
+body {
+    background: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.download-link {
+    font-size: 21px;
+    color: aquamarine;
+    margin: 2rem;
+}
+
+a:link, a:active {
+    color: aquamarine;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 2rem;
+}
+
+.subtitle {
+    font-size: 42px;
+    margin-bottom: 2rem;
+}
+
+.phone-video {
+    margin: 2rem;
+}
+
+.description {
+    font-size: 21px;
+    color: gray;
+    margin-bottom: 1.5rem;
+}
+
+.phone-icon {
+    margin: 2rem;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    margin: 0.8rem;
+}
