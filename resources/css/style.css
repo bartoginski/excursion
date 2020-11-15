@@ -11,6 +11,7 @@ body {
     color: white;
 }
 
+
 .download-link {
     font-size: 21px;
     color: aquamarine;
@@ -50,4 +51,14 @@ footer {
     text-align: right;
     color: gray;
     margin: 0.8rem;
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 900px) {
+    .camp-image {
+        width: 80%;
+    }
+    .phone-icon {
+        width: 2.5rem;
+    }
 }
