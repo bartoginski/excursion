@@ -9,6 +9,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
+
 }
 
 
@@ -55,10 +56,32 @@ footer {
 }
 
 @media only screen and (max-width: 900px) {
+    
     .camp-image {
         width: 80%;
     }
     .phone-icon {
         width: 2.5rem;
+    }
+    .download-link {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .subtitle {
+        font-size: 30px;
+    }
+    .description {
+        font-size: 18px;
+    }
+    footer{
+        font-size: 18px;
+    }
+    .phone-video {
+        width: 70%;
+    }
+    body {
+        padding: .6rem;
     }
 }
